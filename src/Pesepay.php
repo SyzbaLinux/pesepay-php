@@ -54,8 +54,9 @@ class Pesepay
         $referenceNumber = $jsonDecoded['referenceNumber'];
         $pollUrl = $jsonDecoded['pollUrl'];
         $paid = $jsonDecoded['transactionStatus'] == 'SUCCESS';
+        $transactionStatus = $jsonDecoded['transactionStatus'];
 
-        return new Response($referenceNumber, $pollUrl, null, $paid);
+        return new Response($referenceNumber, $pollUrl, null, $paid, $transactionStatus);
     }
 
     public function checkPayment($referenceNumber) {
