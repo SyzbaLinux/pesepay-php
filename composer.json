@@ -1,11 +1,13 @@
 {
-    "name": "codevirtus/pesepay",
-    "description": "Pesepay online payment integration package",
+    "name": "SyzbaLinux/pesepay-php",
+    "description": "Pesepay online payment integration package for seamless payment processing.",
     "keywords": [
-        "codevirtus",
-        "pesepay"
+        "emmanuel siziba",
+        "pesepay",
+        "payment",
+        "integration"
     ],
-    "homepage": "https://github.com/codevirtus/pesepay",
+    "homepage": "https://github.com/SyzbaLinux/pesepay-php",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -17,6 +19,11 @@
         {
             "name": "Michael T. Tsuro",
             "email": "developer@codevirtus.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Emmanuel Siziba",
+            "email": "emmasiziba@gmail.com",
             "role": "Developer"
         }
     ],
@@ -39,7 +46,6 @@
     "scripts": {
         "test": "vendor/bin/phpunit",
         "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
-
     },
     "config": {
         "sort-packages": true
