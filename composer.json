@@ -1,5 +1,5 @@
 {
-    "name": "SyzbaLinux/pesepay-php",
+    "name": "emmanuelsiziba/pesepay",
     "description": "Pesepay online payment integration package for seamless payment processing.",
     "keywords": [
         "emmanuel siziba",
@@ -11,16 +11,6 @@
     "license": "MIT",
     "type": "library",
     "authors": [
-        {
-            "name": "Sean P. T. Huvaya",
-            "email": "developer@codevirtus.com",
-            "role": "Developer"
-        },
-        {
-            "name": "Michael T. Tsuro",
-            "email": "developer@codevirtus.com",
-            "role": "Developer"
-        },
         {
             "name": "Emmanuel Siziba",
             "email": "emmasiziba@gmail.com",
