@@ -3,7 +3,7 @@
 You can install the package via composer:
 
 ```bash
-composer require codevirtus/pesepay
+composer require emmanuelsiziba/pesepay
 ```
 
 ### Getting Started

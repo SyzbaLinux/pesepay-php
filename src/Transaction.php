@@ -1,6 +1,6 @@
 <?php
 
-namespace Codevirtus\Payments;
+namespace EmmanuelSiziba\Payments;
 
 require_once('Amount.php');
 

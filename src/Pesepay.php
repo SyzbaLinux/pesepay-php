@@ -1,6 +1,6 @@
 <?php
 
-namespace Codevirtus\Payments;
+namespace EmmanuelSiziba\Payments;
 
 include_once('Payment.php');
 include_once('Customer.php');

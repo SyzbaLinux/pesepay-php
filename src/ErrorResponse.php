@@ -1,23 +1,25 @@
 <?php
 
-namespace Codevirtus\Payments;
+namespace EmmanuelSiziba\Payments;
 
-class ErrorResponse {
+class ErrorResponse
+{
     private $success;
     private $message;
 
-    public function __construct($message) {
+    public function __construct($message)
+    {
         $this->success = false;
         $this->message = $message;
     }
 
-    public function success() {
+    public function success()
+    {
         return $this->success;
     }
 
-    public function message() {
+    public function message()
+    {
         return $this->message;
     }
 }
-
-?>
