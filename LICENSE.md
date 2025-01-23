@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) Sean Huvaya
+Copyright (c) Emmanuel Siziba
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
