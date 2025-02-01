@@ -1,8 +1,9 @@
 <?php
 
-namespace EmmanuelSiziba\Payments;
+namespace Emmanuelsiziba\Payments;
 
-class Payment {
+class Payment
+{
     public $currencyCode;
     public $paymentMethodCode;
     public $customer;
@@ -15,16 +16,16 @@ class Payment {
     public $returnUrl;
     public $resultUrl;
 
-    function __construct($currencyCode, $paymentMethodCode, $customer) {
+    function __construct($currencyCode, $paymentMethodCode, $customer)
+    {
         $this->currencyCode = $currencyCode;
         $this->paymentMethodCode = $paymentMethodCode;
         $this->customer = $customer;
     }
-    
-    public function setRequiredFields($requiredFiels) {
+
+    public function setRequiredFields($requiredFiels)
+    {
         $this->paymentRequestFields = $requiredFiels;
         $this->paymentMethodRequiredFields = $requiredFiels;
     }
 }
-
-?>

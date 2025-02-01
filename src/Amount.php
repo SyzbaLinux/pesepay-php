@@ -1,15 +1,15 @@
 <?php
 
-namespace EmmanuelSiziba\Payments;
+namespace Emmanuelsiziba\Payments;
 
-class Amount {
+class Amount
+{
     public $amount;
     public $currencyCode;
-    
-    function __construct($amount, $currencyCode) {
+
+    function __construct($amount, $currencyCode)
+    {
         $this->amount = $amount;
         $this->currencyCode = $currencyCode;
     }
 }
-
-?>

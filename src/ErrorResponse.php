@@ -1,6 +1,6 @@
 <?php
 
-namespace EmmanuelSiziba\Payments;
+namespace Emmanuelsiziba\Payments;
 
 class ErrorResponse
 {

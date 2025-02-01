@@ -1,8 +1,9 @@
 <?php
 
-namespace EmmanuelSiziba\Payments;
+namespace Emmanuelsiziba\Payments;
 
-class Response {
+class Response
+{
     private $success;
     private $referenceNumber;
     private $pollUrl;
@@ -10,7 +11,8 @@ class Response {
     private $paid;
     private $transactionStatus;
 
-    public function __construct($referenceNumber, $pollUrl, $redirectUrl = null, $paid = false, $transactionStatus = null) {
+    public function __construct($referenceNumber, $pollUrl, $redirectUrl = null, $paid = false, $transactionStatus = null)
+    {
         $this->success = true;
         $this->referenceNumber = $referenceNumber;
         $this->pollUrl = $pollUrl;
@@ -19,29 +21,33 @@ class Response {
         $this->transactionStatus = $transactionStatus;
     }
 
-    public function success() {
+    public function success()
+    {
         return $this->success;
     }
 
-    public function pollUrl() {
+    public function pollUrl()
+    {
         return $this->pollUrl;
     }
 
-    public function referenceNumber() {
+    public function referenceNumber()
+    {
         return $this->referenceNumber;
     }
 
-    public function redirectUrl() {
+    public function redirectUrl()
+    {
         return $this->redirectUrl;
     }
 
-    public function paid() {
+    public function paid()
+    {
         return $this->paid;
     }
 
-    public function transactionStatus() {
+    public function transactionStatus()
+    {
         return $this->transactionStatus;
     }
 }
-
-?>
